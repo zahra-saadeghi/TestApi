@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace CleanArchitecture.WebApi1.Application.Features.Parents.Queries.GatAllParent
+{
+    public class GetAllParentViewModel
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Gender { get; set; }
+        public string DateOfBirth { get; set; }
+
+        public int FamilyId { get; set; }
+
+        public int? ContactInfoId { get; set; }
+
+
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "CleanArchitecture.WebApi1.Infrastructure.Persistence": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:58855;http://localhost:58857"
+    }
+  }
+}
